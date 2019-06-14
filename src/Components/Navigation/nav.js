@@ -7,12 +7,15 @@ const Nav = () => {
 				<nav>
 					
 					<h2 className='logo'>The Lift</h2>
+
 					<ul className='nav-list'>
 						<li>History</li>
 						<li>Track</li>
 						<li>Unknown</li>
 					</ul>
 
+					<h3> Sign Out </h3>
+					
 				</nav>
 			</div> )
 };

@@ -1,19 +1,12 @@
-.navBar {
-	display: flex;
-	justify-content: flex-end;
-}
-
-.space {
-	display: flex;
-	justify-content: space-around;
-}
-
 nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	height: 10vh;
 	font-family: 'Poppins', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	background-color: #426aaa;
 }
 
 nav li {
@@ -28,6 +21,7 @@ img {
 
 .logo {
 	letter-spacing: 5px;	
+	text-transform: uppercase;
 }
 
 .nav-list {
