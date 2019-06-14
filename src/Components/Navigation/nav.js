@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import './nav.css';
 
 const Nav = () => {
@@ -14,7 +14,7 @@ const Nav = () => {
 						<li>Unknown</li>
 					</ul>
 
-					<h3> Sign Out </h3>
+					<h3 className='sign-out'> Sign Out </h3>
 					
 				</nav>
 			</div> )
