@@ -31,7 +31,7 @@ img {
 .nav-list {
 	display: flex;
 	justify-content: space-between;
-	width: 23%;
+	width: 30%;
 	font-size: 2vh;
 	color: white;
 }
@@ -40,3 +40,4 @@ img {
 	font-size: 1.5vh;
 	color: white;
 }
+

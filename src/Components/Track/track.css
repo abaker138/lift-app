@@ -1,0 +1,18 @@
+.title {
+	text-align: center;
+}
+
+.trackBody {
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.leftSide {
+	background-color: red;
+}
+
+.rightSide {
+	background-color: blue;
+	width: 47vw;
+}
