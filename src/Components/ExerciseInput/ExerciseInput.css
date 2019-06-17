@@ -1,0 +1,28 @@
+form input {
+	margin: 5px;
+	border-radius: 10px;
+	outline: none;
+
+}
+
+form {
+	display: flex;
+}
+
+form h4 {
+	margin: 0px;
+	text-align: center;
+}
+
+.repsInput {
+	width: 30%;
+	box-sizing: 
+}
+
+.weightInput {
+	width: 30%;
+}
+
+.exInput {
+	width: 30%;
+}
