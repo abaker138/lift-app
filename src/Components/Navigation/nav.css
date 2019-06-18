@@ -26,7 +26,11 @@ img {
 	padding: 5px;
 	font-size: 3vh;
 	color: white;
-	
+	transition: all .25s ease-in-out;
+}
+
+.logo:hover {
+	transform: scale(1.2);
 }
 
 .nav-list {
@@ -44,3 +48,23 @@ img {
 
 }
 
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.navItem:hover {
+	animation: bounce 1s;
+}

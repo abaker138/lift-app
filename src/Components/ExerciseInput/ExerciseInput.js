@@ -1,26 +1,23 @@
 import React from 'react';
 import './ExerciseInput.css';
+// import Set from '../Set/Set.js';
 
-const exerciseInput = () => {
+const exerciseInput = ({exercise}) => {
 	return (
 	<div>
 		
 		<form>
 
-			<div className='exInput'>
-				<h4> Exercise </h4>
-				<input type='text' name='name' />
+			<div className='exDiv'>
+				<h4>{exercise.name}</h4>
+				<div className='sets'>
+					<h5>{exercise.reps}</h5>
+					<h5>{exercise.weight}</h5>
+				</div>
+				
+				{console.log(exercise)}
 			</div>
 
-			<div className='repsInput'>
-				<h4> Reps </h4>
-				<input type='number' name='reps' />
-			</div>
-
-			<div className='weightInput'>
-				<h4> Weight </h4>
-				<input type='number' name='weight' />
-			</div>
 
 		</form>
 
