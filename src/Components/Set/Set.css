@@ -1,3 +1,11 @@
 .set {
 	display: flex;
 }
+
+.reps {
+	width: 25px;
+	border-radius: 20%;
+}
+.weight {
+	width: 25px;
+}

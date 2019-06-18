@@ -10,20 +10,17 @@ class Track extends Component {
     this.state = {
     	exercises:[
     		{
-    			name: 'Benchpress',
-    			reps: [10,9,8],
-    			weight: [225,225,225]
+    			name:'Benchpress',
+    			numSets: [0,0,0]
     		},
     		{
-    			name: 'Squat',
-    			reps: [8,6,8],
-    			weight: [315,315,315]
+    			name:'Squat',
+    			numSets: [0,0,0,0]
     		}
     		,
     		{
-    			name: 'Deadlift',
-    			reps: [5,5,3],
-    			weight: [405,405,405]
+    			name:'Deadlift',
+    			numSets: [0,0,0,0,0]
     		}
     	]
 

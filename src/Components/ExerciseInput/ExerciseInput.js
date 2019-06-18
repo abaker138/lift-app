@@ -1,6 +1,6 @@
 import React from 'react';
 import './ExerciseInput.css';
-// import Set from '../Set/Set.js';
+import Set from '../Set/Set.js';
 
 const exerciseInput = ({exercise}) => {
 	return (
@@ -11,8 +11,9 @@ const exerciseInput = ({exercise}) => {
 			<div className='exDiv'>
 				<h4>{exercise.name}</h4>
 				<div className='sets'>
-					<h5>{exercise.reps}</h5>
-					<h5>{exercise.weight}</h5>
+					{exercise.numSets.map((user, i) => {
+						return (<Set />)
+					})}
 				</div>
 				
 				{console.log(exercise)}
