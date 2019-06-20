@@ -19,7 +19,7 @@ class Track extends Component {
     		}
     		,
     		{
-    			name:'Deadlift',
+    			name:'Sumo Deadlift',
     			numSets: [0,0,0,0,0]
     		}
     	]
@@ -27,7 +27,10 @@ class Track extends Component {
   	}
 }
 
-	co
+addSet = () => {
+			this.state.exercises[0].numSets.concat([0])
+			console.log(this.state)
+	};
 
 	render() {
 		return (
@@ -38,9 +41,12 @@ class Track extends Component {
 				<div className='leftSide'>
 					<p>This is the left side!</p>
 					{this.state.exercises.map((user, i) => {
-						return ( <ExerciseInput key={i} exercise={this.state.exercises[i]} /> )
+						return ( <ExerciseInput
+						key={i}
+						exKey={i} 
+						exercise={this.state.exercises[i]} 
+						addSet={this.state.addSet} /> )
 				})}
-
 
 				</div>
 				<div className='rightSide'>

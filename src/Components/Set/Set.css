@@ -1,11 +1,11 @@
-.set {
-	display: flex;
-}
-
-.reps {
+#reps {
 	width: 25px;
 	border-radius: 20%;
 }
-.weight {
+#weight {
 	width: 25px;
+}
+
+.sets {
+	display: flex;
 }

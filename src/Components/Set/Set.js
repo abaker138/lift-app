@@ -1,10 +1,12 @@
 import React from 'react';
 
-const Set =() => {
+const Set =({setKey}) => {
 	return (
-		<div className='set'>
-			<input className='reps' type='number' value='reps' />
-			<input className='weight' type='number' value='weight' />
+		<div className='sets'>
+			<h4> {setKey+1} </h4>
+			<input id='reps' type="number" value='reps' />
+			<input id='weight' type="number" value='weight' />
+			
 		</div>
 		)
 }
