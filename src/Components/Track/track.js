@@ -28,8 +28,12 @@ class Track extends Component {
 }
 
 addSet = () => {
-			this.state.exercises[0].numSets.concat([0])
+			// var newSet = [0]
+			// this.setState({ exercises[0].numSets: exercises[0].concat(newSet)})
+			// this.state.exercises[1].numSets.concat(newSet)
 			console.log(this.state)
+			
+
 	};
 
 	render() {
@@ -45,7 +49,7 @@ addSet = () => {
 						key={i}
 						exKey={i} 
 						exercise={this.state.exercises[i]} 
-						addSet={this.state.addSet} /> )
+						addSet={this.addSet} /> )
 				})}
 
 				</div>

@@ -12,12 +12,11 @@ const exerciseInput = ({exKey, exercise, addSet}) => {
 				<h4>{exercise.name} {exKey+1}</h4>
 				<div >
 					{exercise.numSets.map((user, i) => {
-						return (<Set key={i} setKey={i} addSet={addSet}/>)
+						return (<Set key={i} setKey={i}/>)
 					})}
-					<button type='button' onClick={addSet} />
+					<button type='button' onClick={addSet}>Add Set</button>
 				</div>
 				
-				{console.log(exercise)}
 			</div>
 
 

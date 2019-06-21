@@ -4,8 +4,8 @@ const Set =({setKey}) => {
 	return (
 		<div className='sets'>
 			<h4> {setKey+1} </h4>
-			<input id='reps' type="number" value='reps' />
-			<input id='weight' type="number" value='weight' />
+			<input id='reps' type="number" defaultValue='reps' />
+			<input id='weight' type="number" defaultValue='weight' />
 			
 		</div>
 		)
